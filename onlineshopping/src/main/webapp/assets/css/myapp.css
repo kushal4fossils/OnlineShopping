@@ -3,17 +3,43 @@
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
  */
-
-header {
-  padding: 154px 0 100px;
+html {
+	height: 100%;
 }
 
-@media (min-width: 992px) {
-  header {
-    padding: 156px 0 100px;
-  }
+header {
+	padding: 154px 0 100px;
+	height: 100%;
+}
+
+@media ( min-width : 992px) {
+	header {
+		padding: 156px 0 100px;
+	}
 }
 
 section {
-  padding: 150px 0;
+	padding: 150px 0;
+}
+
+footer {
+	margin: 0;
+}
+
+/*
+Custom Styling
+*/
+.wrapper {
+	min-height: 100%;
+	position: relative;
+}
+
+.content {
+	padding-bottom: 60px;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	height: 50px;
 }
