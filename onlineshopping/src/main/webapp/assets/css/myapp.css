@@ -39,7 +39,8 @@ Custom Styling
 }
 
 .footer {
-	position: absolute;
+	left: 0px;
+	position: fixed;
 	bottom: 0;
 	height: 50px;
 }
